@@ -1,0 +1,69 @@
+.jobpost-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.jobpost-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.jobpost-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jobpost-form label {
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+
+.jobpost-form input,
+.jobpost-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.jobpost-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.jobpost-form button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.jobpost-form button:disabled {
+    background-color: #6c757d;
+}
+
+.jobpost-form button:hover:not(:disabled) {
+    background-color: #218838;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #d9534f;
+}
